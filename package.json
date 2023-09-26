@@ -1,7 +1,7 @@
 {
   "name": "ajs",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/t3tf53h24b753enb?svg=true\r )](https://ci.appveyor.com/project/lioness1741/ajs-homeworks-destructuring)",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -17,15 +17,16 @@
   "author": "coursar",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
     "babel-jest": "^25.4.0",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-react": "^7.33.2",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.2.0",
     "jest": "^25.4.0",
@@ -36,6 +37,14 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "core-js": "^3.6.5"
-  }
+    "core-js": "^3.32.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lioness1741/ajs-homeworks-destructuring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lioness1741/ajs-homeworks-destructuring/issues"
+  },
+  "homepage": "https://github.com/lioness1741/ajs-homeworks-destructuring#readme"
 }
