@@ -35,7 +35,7 @@ test('function destructuringObj should return an array with id, name, icon, desc
       id: 9,
       name: 'Нокаутирующий удар',
       icon: 'http://...',
-      description: 'Описание не доступно',
+      description: 'Описание недоступно',
     },
   ];
   expect(received).toEqual(expected);
